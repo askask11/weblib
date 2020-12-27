@@ -1,8 +1,14 @@
 @media print
 {    
-    .no-print,.mr3rhf,.CENy8b,.VLoccc, .no-print *
+  /*hide all images and show cases*/
+    .no-print,.mr3rhf,.CENy8b,.VLoccc,.NMm5M,.hUphyc,.hBW7Hb .no-print *
     {
         display: none !important;
     }
+  /*The information button needs to hide*/
+  	.LqzjUe:not(.gFG57e) .QMuaBc:not(.qs41qe)
+  	{
+      	background-color: rgba(255,255,255,0) !important;
+  	}
 }
 
